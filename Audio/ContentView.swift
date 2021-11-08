@@ -110,7 +110,7 @@ class Presenter: ObservableObject {
   func setupNowPlaying() {
     // Define Now Playing Info
     var nowPlayingInfo = [String : Any]()
-    nowPlayingInfo[MPMediaItemPropertyTitle] = "Podcast"
+    nowPlayingInfo[MPMediaItemPropertyTitle] = "Addin's Podcast"
     
     if let image = UIImage(named: "deen") {
       nowPlayingInfo[MPMediaItemPropertyArtwork] = MPMediaItemArtwork(boundsSize: image.size) { size in
